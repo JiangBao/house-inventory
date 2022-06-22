@@ -1,0 +1,20 @@
+{
+  "name": "house-inventory-server",
+  "version": "1.0.0",
+  "description": "house inventory service",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JiangBao <jiangbao1123@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.11",
+    "dayjs": "^1.11.2",
+    "koa": "^2.13.4",
+    "koa-router": "^10.1.1",
+    "mysql": "^2.18.1",
+    "node-schedule": "^2.1.0"
+  }
+}
