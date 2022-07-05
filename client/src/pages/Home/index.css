@@ -1,0 +1,36 @@
+.page-home {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-home .info-wrapper {
+  display: flex;
+  width: calc(80% + 66px);
+  justify-content: center;
+  align-items: center;
+  margin-left: 66px;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 89, 178);
+  margin-bottom: 32px;
+}
+
+.page-home .info-wrapper span {
+  color: rgb(128, 191, 255);
+  margin-left: 64px;
+}
+
+.page-home .info-wrapper a {
+  text-decoration: none;
+  color: rgb(128, 191, 255);
+}
+
+.recharts-wrapper {
+  padding: 24px;
+  border-radius: 10px;
+  border: 1px solid rgb(30, 73, 118);
+}
